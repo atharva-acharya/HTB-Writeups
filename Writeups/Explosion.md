@@ -74,7 +74,7 @@ gobuster dir -u http://[IP] -w /usr/share/wordlists/dirb/common.txt
 
 ## 🛡️ 2. Exploitation
 ### The Vulnerability
-*Explain what was found (e.g., Weak Credentials, RCE, SQLi).*
+
 
 ### Getting the Flag
 *The exact commands run to navigate the system or database to retrieve the final flag.*
