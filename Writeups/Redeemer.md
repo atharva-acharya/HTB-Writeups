@@ -107,3 +107,5 @@ GET [key_name]
 
 **Commands to remember:** `[command 1]` - [What it does]
 `[command 2]` - [What it does]
+
+![](Pasted%20image%2020260311181044.png)
