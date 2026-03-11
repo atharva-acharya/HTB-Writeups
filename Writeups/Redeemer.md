@@ -24,7 +24,9 @@ How I found it:
 nmap -sV -p- [IP]
 ```
 
-![](Pasted-image-20260311171617.png)
+![](
+
+assets/Pasted-image-20260311171617.png)
 
 Task 2: Which service is running on the port that is open on the machine?
 Answer: Redis
@@ -95,7 +97,7 @@ KEYS *
 ```bash
 GET [key_name]
 ```
-![](Pasted-image-20260311175034.png)
+![](assets/Pasted-image-20260311175034.png)
 
 > **Root/Final Flag:** > 03e1d2b376c37ab3f5319922053953eb
 
