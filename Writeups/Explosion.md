@@ -1,77 +1,102 @@
 ---
-title: "[Machine Name] - HTB Starting Point"
-date: "2026-03-11"
+title: Explosion - HTB Write-up
+date: 2026-03-11
 tags:
   - htb
   - writeup
-  - starting-point
-  - linux
-  - very-easy
----
-# 🎯 Machine Name - HTB Starting Point
-
-**Difficulty:** Very Easy / Easy  
-**OS:** Linux / Windows  
-
+  - windows
 ---
 
-## 📝 1. Guided Tasks & Questions
+# 🎯 Explosion - Hack The Box
 
-Task 1: Which TCP port is open on the machine?
-Answer: [e.g., 6379]
-How I found it:
-
-Task 2: Which service is running on the port that is open on the machine?
-Answer: 
-How I found it: 
-
-Task 3:
-Answer:
-How I found it: 
-
-Task 3:
-Answer:
-How I found it: 
+**Difficulty:** Very Easy  
+**OS:** Windows  
 
 ---
 
-## 🔍 2. Reconnaissance & Enumeration
+## 📋 Tasks
 
-### Nmap Scan Details
-*Full output and notes from the initial port scan.*
+### Task 1
+**Question:** What does the 3-letter acronym RDP stand for?
+**Answer:** Remote Desktop Protocol
+**How I found it:** Google
+
+### Task 2
+**Question:** What is a 3-letter acronym that refers to interaction with the host through a command line interface?
+**Answer:** 
+**How I found it:** 
+
+### Task 3
+**Question:** What is a 3-letter acronym that refers to interaction with the host through a command line interface?
+**Answer:** CLI
+**How I found it:** 
+
+### Task 4
+**Question:** What about graphical user interface interactions?
+**Answer:** GUI
+**How I found it:** 
+
+### Task 5
+**Question:** What is the name of an old remote access tool that came without encryption by default and listens on TCP port 23?
+**Answer:** 
+**How I found it:** 
+
+### Task 6
+**Question:** 
+**Answer:** 
+**How I found it:** 
+
+### Task 7
+**Question:** 
+**Answer:** 
+**How I found it:** 
+
+
+
+## 🔍 1. Reconnaissance & Enumeration
+
+### Nmap Scan
+*Initial port scan to identify running services.*
 
 ```bash
-# Paste your full Nmap command and interesting output here
+nmap -sC -sV -p- [IP] 
 ```
 
-### Service Enumeration
-*Notes on interacting with the specific service (e.g., Redis, SMB, FTP).*
+### Web Discovery
+*Finding hidden directories and files.*
 
 ```bash
-# Commands used to connect to the service (e.g., redis-cli -h [IP])
+gobuster dir -u http://[IP] -w /usr/share/wordlists/dirb/common.txt
 ```
 
 ---
 
-## 🚪 3. Exploitation & The Flag
-
+## 🛡️ 2. Exploitation
 ### The Vulnerability
-*Explain the misconfiguration that allowed access (e.g., Redis server left open with no authentication).*
+*Explain what was found (e.g., Weak Credentials, RCE, SQLi).*
 
 ### Getting the Flag
 *The exact commands run to navigate the system or database to retrieve the final flag.*
 
 ```bash
-# Paste your commands here (e.g., keys *, get flag)
+cat user.txt
 ```
-
-> **Root/Final Flag:** > `[Paste the flag hash here]`
 
 ---
 
-## 💡 4. Conclusion & Lessons Learned
+## 🔝 3. Privilege Escalation
+### Enumeration
+*Searching for a path to Root/Administrator.*
 
-**What I learned:** [Brief note on the protocol or tool you learned, like how to use redis-cli]
+### Root Flag
+*Final steps to compromise the machine.*
 
-**Commands to remember:** `[command 1]` - [What it does]
-`[command 2]` - [What it does]
+---
+
+## 📝 4. Final Thoughts
+**Key Takeaways:**
+* [What did you learn from this machine?]
+* [Which tools were most effective?]
+
+---
+*Note: This write-up is for educational purposes and personal tracking only.*
