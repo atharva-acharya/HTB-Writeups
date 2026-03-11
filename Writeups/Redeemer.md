@@ -17,19 +17,40 @@ tags:
 
 ## 📝 1. Guided Tasks & Questions
 
-**Task 1: Which TCP port is open on the machine?**
-**Answer:** 6379
-**How I found it:**
+Task 1: Which TCP port is open on the machine?
+Answer: 6379
+How I found it:
 ```bash
 nmap -sV -p- [IP]
 ```
+
 ![[Pasted image 20260311171617.png]]
 
-**Task 2: Which service is running on the port that is open on the machine?**
-**Answer:** Redis
+Task 2: Which service is running on the port that is open on the machine?
+Answer: Redis
 
-**Task 3: What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database**
+Task 3: What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
 Answer: In-memory Database
+
+Task 4:Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.
+Answer: redis-cli
+How I found it: simple google search
+
+Task 5: Which flag is used with the Redis command-line utility to specify the hostname?
+Answer: `-h`
+How I found it: `redis-cli --help`
+
+Task 6:
+Answer:
+How I found it: 
+
+Task 6:
+Answer:
+How I found it: 
+
+Task 6:
+Answer:
+How I found it: 
 
 
 ---
