@@ -18,38 +18,52 @@ tags:
 
 ### Task 1
 **Question:** What does the 3-letter acronym RDP stand for?
+
 **Answer:** Remote Desktop Protocol
+
 **How I found it:** Google
 
 ### Task 2
 **Question:** What is a 3-letter acronym that refers to interaction with the host through a command line interface?
+
 **Answer:** CLI
+
 **How I found it:** 
 
 ### Task 3
 **Question:** What about graphical user interface interactions?
+
 **Answer:** GUI
+
 **How I found it:** 
 
 ### Task 4
 **Question:** What is the name of an old remote access tool that came without encryption by default and listens on TCP port 23?
+
 **Answer:** Telnet
+
 **How I found it:** 
 
 ### Task 5
 **Question:** What is the name of the service running on port 3389 TCP?
+
 **Answer:** ms-wbt-server
+
 **How I found it:** `nmap -sV -p3389 10.129.4.46`
 ![](assets/Pasted%20image%2020260311190327.png)
 
 ### Task 6
 **Question:** What is the switch used to specify the target host's IP address when using xfreerdp?
+
 **Answer:** `/v:`
+
 **How I found it:** 
 
 ### Task 7
 **Question:** What username successfully returns a desktop projection to us with a blank password?
+
 **Answer:** Administrator
+
 **How I found it:** 
 
 ---
