@@ -52,27 +52,8 @@ tags:
 **Answer:** Administrator
 **How I found it:** 
 
-
-
-## 🔍 1. Reconnaissance & Enumeration
-
-### Nmap Scan
-*Initial port scan to identify running services.*
-
-```bash
-nmap -sC -sV -p- [IP] 
-```
-
-### Web Discovery
-*Finding hidden directories and files.*
-
-```bash
-gobuster dir -u http://[IP] -w /usr/share/wordlists/dirb/common.txt
-```
-
 ---
-
-## 🛡️ 2. Exploitation
+## 🛡️ 1. Exploitation
 ### The Vulnerability
 The Admin password was not set, so the hacker can RDP into the machine
 
