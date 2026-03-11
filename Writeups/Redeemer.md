@@ -24,9 +24,7 @@ How I found it:
 nmap -sV -p- [IP]
 ```
 
-![](
-
-assets/Pasted-image-20260311171617.png)
+![](assets/Pasted-image-20260311171617.png)
 
 Task 2: Which service is running on the port that is open on the machine?
 Answer: Redis
@@ -46,12 +44,12 @@ Task 7:Once connected to a Redis server, which command is used to obtain the inf
 Answer: info
 How I found it: `redis-cli --cluster help` 
 
-![](Pasted-image-20260311172944.png)
+![](assets/Pasted-image-20260311172944.png)
 
 Task 8: What is the version of the Redis server being used on the target machine?
 Answer: `5.0.7`
 How I found it: 
-![](Pasted-image-20260311173059.png)
+![](assets/Pasted-image-20260311173059.png)
 
 Task 9: Which command is used to select the desired database in Redis?
 Answer: select
@@ -60,7 +58,7 @@ How I found it: google
 Task 9: How many keys are present inside the database with index 0?
 Answer: 4
 How I found it:
-![](Pasted-image-20260311173341.png)
+![](assets/Pasted-image-20260311173341.png)
 
 Task 10: Which command is used to obtain all the keys in a database?
 Answer: `KEYS *`
@@ -82,17 +80,17 @@ redis-cli -h [IP]
 ```bash
 info
 ```
-![](Pasted-image-20260311175130.png)
+![](assets/Pasted-image-20260311175130.png)
 
 ```bash
 salect 0
 ```
-![](Pasted-image-20260311175106.png)
+![](assets/Pasted-image-20260311175106.png)
 
 ```bash
 KEYS *
 ```
-![](Pasted-image-20260311174956.png)
+![](assets/Pasted-image-20260311174956.png)
 
 ```bash
 GET [key_name]
