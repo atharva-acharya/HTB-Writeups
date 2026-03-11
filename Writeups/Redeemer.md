@@ -66,34 +66,31 @@ How I found it: Google
 
 ---
 
-## 🔍 2. Reconnaissance & Enumeration
-
-### Nmap Scan Details
-*Full output and notes from the initial port scan.*
-
-```bash
-# Paste your full Nmap command and interesting output here
-```
-
-### Service Enumeration
-*Notes on interacting with the specific service (e.g., Redis, SMB, FTP).*
-
-```bash
-# Commands used to connect to the service (e.g., redis-cli -h [IP])
-```
-
----
-
-## 🚪 3. Exploitation & The Flag
+## 🚪 2. Exploitation & The Flag
 
 ### The Vulnerability
-*Explain the misconfiguration that allowed access (e.g., Redis server left open with no authentication).*
-
+Redis server left open with no auth
 ### Getting the Flag
 *The exact commands run to navigate the system or database to retrieve the final flag.*
 
 ```bash
-# Paste your commands here (e.g., keys *, get flag)
+redis-cli -h [IP]
+```
+
+```bash
+info
+```
+
+```bash
+salect 0
+```
+
+```bash
+KEYS *
+```
+
+```bash
+GET KEY
 ```
 
 > **Root/Final Flag:** > `[Paste the flag hash here]`
