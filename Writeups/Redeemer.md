@@ -80,20 +80,24 @@ redis-cli -h [IP]
 ```bash
 info
 ```
+![[Pasted image 20260311175130.png]]
 
 ```bash
 salect 0
 ```
+![[Pasted image 20260311175106.png]]
 
 ```bash
 KEYS *
 ```
+![[Pasted image 20260311174956.png]]
 
 ```bash
-GET KEY
+GET [key_name]
 ```
+![[Pasted image 20260311175034.png]]
 
-> **Root/Final Flag:** > `[Paste the flag hash here]`
+> **Root/Final Flag:** > 03e1d2b376c37ab3f5319922053953eb
 
 ---
 
