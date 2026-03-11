@@ -20,7 +20,6 @@ tags:
 ### Task 1
 
 **Question:** 
-
 **Answer:** 
 
 **How I found it:** 
