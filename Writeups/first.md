@@ -1,39 +1,36 @@
 ---
-title: "[Machine Name] - HTB Starting Point"
-date: YYYY-MM-DD
+title: Reedemer - HTB Starting Point
+date: 2026-03-11
 tags:
   - htb
   - writeup
   - starting-point
-  - linux # or windows
-  - very-easy # or easy
+  - linux
+  - very-easy
 ---
-# 🎯 [Machine Name] - HTB Starting Point
+# 🎯 Reedemer - HTB Starting Point
 
-**Difficulty:** [Very Easy / Easy]  
-**OS:** [Linux / Windows]  
-**IP Address:** [10.129.x.x]  
+**Difficulty:** Very Easy
+**OS:** Linux  
 
 ---
 
 ## 📝 1. Guided Tasks & Questions
 
-*Log the questions asked by the HTB platform and how you found the answers.*
-
 **Task 1: Which TCP port is open on the machine?**
-**Answer:** [e.g., 6379]
+**Answer:** 6379
 **How I found it:**
 ```bash
 nmap -sV -p- [IP]
 ```
+![[Pasted image 20260311171617.png]]
 
 **Task 2: Which service is running on the port that is open on the machine?**
-**Answer:** [e.g., Redis]
-**How I found it:** Nmap service scan output.
+**Answer:** Redis
 
-**Task 3: [Paste the next question here]**
-**Answer:** [Your answer]
-**How I found it:** [Brief explanation or command]
+**Task 3: What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database**
+Answer: In-memory Database
+
 
 ---
 
