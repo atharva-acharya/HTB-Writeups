@@ -1,5 +1,5 @@
 ---
-title: Pi - HTB Write-up
+title: pi - HTB Write-up
 date: 2026-03-11
 tags:
   - htb
@@ -7,7 +7,7 @@ tags:
   - linux
 ---
 
-# 🎯 Pi - Hack The Box
+# 🎯 pi - Hack The Box
 
 **Difficulty:** Very Easy  
 **OS:** Linux  
@@ -18,67 +18,33 @@ tags:
 ## 📋 Tasks
 
 ### Task 1
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 ### Task 2
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 ### Task 3
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 ### Task 4
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 ### Task 5
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 ### Task 6
-
-**Question:** 
-
-**Answer:** 
-
-**How I found it:** 
-
-### Task 7
-
-**Question:** 
-
-**Answer:** 
-
-**How I found it:** 
-
-### Task 8
-
-**Question:** 
-
-**Answer:** 
-
+**Question:** <br>
+**Answer:** <br>
 **How I found it:** 
 
 
